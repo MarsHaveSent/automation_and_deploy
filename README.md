@@ -93,10 +93,10 @@ python src/scripts/init_db.py
 
 ```bash
 # Основной загрузчик
-python loader.py
+python src/loader.py
 
 # Или используйте скрипт напрямую
-python scripts/load_data.py --path src/data/2026-01-13/
+python src/scripts/load_data.py --date YYYY-MM-DD --verbose
 ```
 
 ### Генерация тестовых данных
