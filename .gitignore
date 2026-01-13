@@ -29,6 +29,8 @@ config/credentials.json
 *.key
 *.pem
 
+# Автоматизация на Windows Scheduler
+*.bat
 
 # IDE
 .vscode/
