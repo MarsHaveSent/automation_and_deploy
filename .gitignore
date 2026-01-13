@@ -1,0 +1,52 @@
+# === ВИРТУАЛЬНОЕ ОКРУЖЕНИЕ ===
+venv/
+env/
+ENV/
+.virtualenv/
+pythonenv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Логи
+logs/
+*.log
+
+# Конфигурационные файлы с секретами
+.env
+config/secrets.env
+config/credentials.json
+*.env
+*.key
+*.pem
+
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints
+
+# === PYCHARM ===
+.idea/
+
+# Временные файлы
+temp/
+tmp/
