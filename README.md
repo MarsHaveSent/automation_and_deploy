@@ -72,9 +72,7 @@ CREATE DATABASE sales_automation;
 ```bash
 # Скопируйте пример конфигурации
 cp .env.example .env
-
-# Отредактируйте .env файл, указав свои настройки:
-DATABASE_URL=postgresql://username:password@localhost:5432/sales_automation
+# Отредактируйте .env файл, указав свои настройки
 ```
 
 ### 4. Инициализация базы данных
